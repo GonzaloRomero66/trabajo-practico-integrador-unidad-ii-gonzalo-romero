@@ -1,0 +1,12 @@
+.Logo {
+    width: 10px;
+    height: 50px;
+}
+.w {
+    
+} 
+#card-body {
+    display: flex;
+    justify-content: center;
+
+}
