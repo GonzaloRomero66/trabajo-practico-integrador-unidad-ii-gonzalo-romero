@@ -1,12 +1,33 @@
-.Logo {
-    width: 10px;
-    height: 50px;
+body {
+  background-color: #035fe9;
+}a {
+  transition: 0.2s;
+  text-align: center;
 }
-.w {
-    
-} 
-#card-body {
-    display: flex;
-    justify-content: center;
 
+a:hover {
+  transform: scale(1.1);
+  background-color: rgb(46, 97, 190);}
+
+
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  font-size: 14px;
 }
